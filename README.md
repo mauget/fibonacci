@@ -52,11 +52,11 @@ fibonacci n = evalState fibsState (0, 1, n)
 
 ## Development Environment
 
-+ Haskell "stack" package (It can create new Stack projects and import existing Stack projects)
++ Haskell "Stack" package (It can create new Stack projects or import existing Stack projects)
 + Jetbrains IntelliJ IDEA (The free Community Edition is sufficient)
 + IntelliJ Haskell plugin
 
-You can use stack with any IDE or none. If using IntelliJ, here's a link to the IntelliJ Haskell plugin doc:
+You can use Stack with any IDE or none. If using IntelliJ, here's a link to the IntelliJ Haskell plugin doc:
 
 [https://github.com/rikvdkleij/intellij-haskell/blob/master/README.md](https://github.com/rikvdkleij/intellij-haskell/blob/master/README.md)
 
