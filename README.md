@@ -93,11 +93,11 @@ wget -qO- https://get.haskellstack.org/ | sh
 
 ## Compile-and-Run
 
-From the project command-line, issue:
+From the project-root command-line, issue:
 
 `stack build --exec fibonacci-exe`
 
-Result displays on console:
+Result on console:
 
 ```bash
 
