@@ -60,15 +60,35 @@ You can use stack with any IDE or none. If using IntelliJ, here's a link to the 
 
 [https://github.com/rikvdkleij/intellij-haskell/blob/master/README.md](https://github.com/rikvdkleij/intellij-haskell/blob/master/README.md)
 
+A link to the Stack site: [https://docs.haskellstack.org/en/stable/README/](https://docs.haskellstack.org/en/stable/README/)
 
 ## Stack installation
 
-Install stack on a Mac:
+Pick your OS:
+
+##### MacOS:
 
 `brew install stack`
 
-Install stack on Windows:
+##### Microsoft Windows:
 
+Use the [64-bit installer](https://get.haskellstack.org/stable/windows-x86_64-installer.exe)
+
+##### Linux, BSD, *nix ...
+
+```bash
+
+curl -sSL https://get.haskellstack.org/ | sh
+
+```
+
+or
+
+```bash
+
+wget -qO- https://get.haskellstack.org/ | sh
+
+```
 
 
 ## Compile-and-Run
@@ -79,7 +99,7 @@ From a command line, issue:
 
 Result displays on console:
 
-```
+```bash
 
 fibonacci of 1000
 43466557686937456435688527675040625802564660517371780402481729089536555417949051890403879840079255169295922593080322634775209689623239873322471161642996440906533187938298969649928516003704476137795166849228875
