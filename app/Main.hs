@@ -12,7 +12,8 @@ main =
     print fibArg
     print (fibonacci fibArg)
 
--- The rest is a pair of functions that carry out the fibonacci algorithm:
+-- A pair of functions that carry out the fibonacci algorithm.
+-- Invocation e.g.: fibonacci 1000
 
 fibsState :: State (Integer, Integer, Integer) Integer
 fibsState =
