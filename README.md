@@ -66,15 +66,15 @@ A link to the Stack site: [https://docs.haskellstack.org/en/stable/README/](http
 
 Pick your OS:
 
-##### MacOS:
+### MacOS:
 
 `brew install stack`
 
-##### Microsoft Windows:
+### Microsoft Windows:
 
 Use the [64-bit installer](https://get.haskellstack.org/stable/windows-x86_64-installer.exe)
 
-##### Linux, BSD, *nix ...
+### Linux, BSD, *nix ...
 
 ```bash
 
