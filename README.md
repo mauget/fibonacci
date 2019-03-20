@@ -7,7 +7,8 @@ We recursively call the State monad, but it doesn't grow the stack. It tracks th
 accumulated result. In other words `State Int Int` operates on an accumulated result and a current input value.
 
 Refer to 
-[https://stackoverflow.com/questions/26901206/implementing-factorial-and-fibonacci-using-state-monad-as-a-learning-exercise](https://stackoverflow.com/questions/26901206/implementing-factorial-and-fibonacci-using-state-monad-as-a-learning-exercise)
++ [Stackoverflow post -- State Monad calculates a Fibonnaci Series](https://stackoverflow.com/questions/26901206/implementing-factorial-and-fibonacci-using-state-monad-as-a-learning-exercise)
++ [Tutorial on State Monad](https://mvanier.livejournal.com/5846.html)
 
 The working data type is the huge `Integer` in lieu of the narrower `Int`. We can produce a profoundly large sequence. 
 We've tested with `fibonnaci 500000`, resulting in a pages-long numeric result within seconds 
