@@ -12,7 +12,7 @@ Refer to
 
 The working data type is the huge `Integer` in lieu of the narrower `Int`. We can produce a profoundly large sequence. 
 We've tested with `fibonnaci 500000`, resulting in a pages-long numeric result within seconds 
-(on a current Mac Book pro). 
+(on a current MacBook pro). 
 
 ## Module
 
