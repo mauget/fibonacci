@@ -65,9 +65,11 @@ A link to the Stack site: [https://docs.haskellstack.org/en/stable/README/](http
 
 Pick your OS:
 
-### MacOS:
+### Intel MacOS:
 
 `brew install stack`
+
+Note: nothing for Apple M1 ghc and stack currently. 
 
 ### Microsoft Windows:
 
