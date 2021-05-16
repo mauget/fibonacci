@@ -1,10 +1,8 @@
 # fibonacci
 
-This short Haskell module contains an example of using a 
-State monad to compute a Fibonacci sequence.
+This short Haskell module contains an example of using a State monad to compute a Fibonacci sequence.
 
-We recursively call the State monad, but it doesn't grow the stack. It tracks the current multiplicand and  
-accumulated result. In other words `State Int Int` operates on an accumulated result and a current input value.
+We recursively call the State monad, but it doesn't grow the stack. It tracks the current multiplicand and accumulated result. In other words `State Int Int` operates on an accumulated result and a current input value.
 
 Refer to 
 + [Stackoverflow post -- State Monad calculates a Fibonnaci Series](https://stackoverflow.com/questions/26901206/implementing-factorial-and-fibonacci-using-state-monad-as-a-learning-exercise)
